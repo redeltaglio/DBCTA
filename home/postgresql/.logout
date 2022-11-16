@@ -1,0 +1,3 @@
+echo "unsetting PGUSER and PGPASSWORD"
+unset PGUSER
+unset PGPASSWORD

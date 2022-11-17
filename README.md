@@ -14,4 +14,10 @@ Humans could be enslaved by radio technology following a simple work flow:
    2) Transmission: Using known patents a couple of service, like voice to skull, is transmitted by radiators. In my opinion the have been adapted to radio FM carriers. They hide the transmission probably multiplexing it by time above a lot of carriers, programs.
 6) As a victim of human trade my brain is interfered by technology this could be something very bad but it could be very interesting to find the sources of the human trade network. As I work in ISP business, wireless Internet service provider, I've been mounted in four geographical different locations a simple PCB with a wide range DSP based radio and a discone antenna. As I'm doing only scanning and register of civilian transmission I've not to be licensed as radio ham.  What I want to archive is despite my current location, considering the national frequency of transmission of the territory that I'm analyzing, is to first register every X seconds the same program in all the frequencies, next jump to another and so on. Every night I will transfer results to my central of operation, my house.
 
-https://help.mikrotik.com/docs/display/ROS/GPS-tracking
+#### Links to work about
+
+- https://help.mikrotik.com/docs/display/ROS/GPS-tracking
+- http://wiki.opendigitalradio.org/Main_Page
+- https://www.radio-browser.info/
+- https://github.com/Opendigitalradio
+- https://github.com/ggerganov/ggwave

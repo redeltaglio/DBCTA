@@ -1,4 +1,6 @@
 # DBCTA
+![](https://github.com/redeltaglio/RNMnetwork/raw/master/Images/screenshot/2013-10-08-1.jpg)
+
 Civilians FM, AM modulations upon MF, VHF and UHF bands of broadcasting radio and television transmissions distributed analysis. Trying to catch global human trade network in Catalunya, Spain. A territory enslaved for political reasons.
 
 My idea is very simple, and some how not so difficult to demonstrate. It's based upon my investigation as a victim of human trade, victim of and European human trade program with exploitation purposes.
@@ -21,3 +23,4 @@ Humans could be enslaved by radio technology following a simple work flow:
 - https://www.radio-browser.info/
 - https://github.com/Opendigitalradio
 - https://github.com/ggerganov/ggwave
+- https://www.youtube.com/@GNURadioProject/playlists

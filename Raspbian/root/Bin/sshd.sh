@@ -5,7 +5,7 @@ ldn=$(hostname -d)
 SSHDIR="/etc/ssh"
 publicip=$(ip route | grep default | awk '{print $7}')
 BACKUPDIR="/root/Backups/ssh"
-PROGROOT="${HOME}/Sources/Git/DBCTA"
+PROGROOT="/home/taglio/Sources/Git/DBCTA"
 
 if [[ ! -d "$BACKUPDIR" ]]; then
 	mkdir "$BACKUPDIR"

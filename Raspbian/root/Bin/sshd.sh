@@ -5,6 +5,7 @@ ldn=$(hostname -d)
 SSHDIR="/etc/ssh"
 publicip=$(ip route | grep default | awk '{print $7}')
 BACKUPDIR="/root/Backups/ssh"
+PROGROOT="${HOME}/Sources/Git/DBCTA"
 
 if [[ ! -d "$BACKUPDIR" ]]; then
 	mkdir "$BACKUPDIR"
@@ -42,7 +43,7 @@ if [ "${ctrl}" = 1 ]; then
     echo "sudo" > principals/taglio
     chmod 0440 principals/taglio
     cd "$SSHDIR"
-    install -o root -g wheel -m 0750 src/etc/ssh/sshd_config /etc/ssh
+    install -o root -g wheel -m 0750 "${PROGROOT}"/Raspbian/etc/ssh/sshd_config /etc/ssh
     sed -i "s/\/PUBLICIP\//$publicip/g" sshd_config
     if [[ -e "$SSHDIR/ssh_host_rsa_key.pub" ]]; then
     	mv {ssh_host_dsa_key,ssh_host_dsa_key.pub,ssh_host_ecdsa_key,ssh_host_ecdsa_key.pub,ssh_host_rsa_key,ssh_host_rsa_key.pub} "$BACKUPDIR"
